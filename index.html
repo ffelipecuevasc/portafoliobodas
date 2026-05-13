@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio · Invitaciones Web para Bodas — Felipe Cuevas</title>
+
+    <!-- Google Fonts: Cormorant Garamond + Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class' }
+    </script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVBAR
+     ══════════════════════════════════════ -->
+<nav id="navbar">
+    <div class="nav-left">
+        <button id="theme-toggle" aria-label="Cambiar modo de apariencia">
+            <!-- Sun (shown in dark mode) -->
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="23"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                <line x1="1" y1="12" x2="3" y2="12"/>
+                <line x1="21" y1="12" x2="23" y2="12"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <!-- Moon (shown in light mode) -->
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+        </button>
+    </div>
+    <div class="nav-center"></div>
+    <div class="nav-right">
+        <p class="nav-title"><strong>Portafolio</strong> de Invitaciones Web</p>
+        <p class="nav-subtitle">Desarrollador Felipe Cuevas</p>
+    </div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     MAIN — TWO COLUMNS
+     ══════════════════════════════════════ -->
+<main id="main-layout">
+
+    <!-- ── LEFT COLUMN (Static) ── -->
+    <aside id="left-col">
+        <div class="left-inner">
+            <h1 class="left-title">
+                Portafolio de<br>
+                <em>Invitaciones Web</em><br>
+                para Bodas
+            </h1>
+            <div class="left-divider"></div>
+            <p class="left-desc">
+                Una colección de mis sitios web diseñados para celebrar los momentos más especiales. Cada invitación digital es una experiencia única y completamente personalizada.
+            </p>
+            <p class="left-desc-secondary">
+                Diseño personalizado · Animaciones fluidas · Responsivo
+            </p>
+            <!-- ── FOOTER ── -->
+            <footer id="footer">
+                <div class="footer-rule"></div>
+                <div class="footer-inner">
+                    <div class="footer-id">
+                        <p class="footer-name">Felipe Cuevas</p>
+                        <p class="footer-role">Desarrollador Full Stack Senior</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/ffelipecuevasc/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/ffelipecuevasc" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="https://ffelipecuevasc.github.io/cv/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Sitio web personal">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-copy">
+                        <p>© 2026 · Todos los derechos reservados</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </aside>
+
+    <!-- ── RIGHT COLUMN (Scrollable gallery) ── -->
+    <section id="right-col">
+
+        <div class="gallery-header">
+            <span class="gallery-label">Galería de proyectos</span>
+            <div class="gallery-line"></div>
+        </div>
+
+        <!-- CARDS -->
+        <div class="cards-container">
+
+            <!-- 01 · Bosque del Sur -->
+            <article class="card" style="--d:0.04s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/1.png" alt="Vista previa de Invitación Bosque del Sur" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Botánico · Floral</span>
+                    <h2 class="card-title">Invitación Bosque del Sur</h2>
+                    <p class="card-desc">Inspirada en la majestuosidad de la naturaleza sureña. Tonos verde pino y fondos crema combinados con una tipografía cursiva clásica y fluida.</p>
+                    <a href="https://ffelipecuevasc.github.io/invitacionboda1/" target="_blank" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article>
+
+            <!-- 02 · Noche de Oro -->
+            <article class="card" style="--d:0.09s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/2.png" alt="Vista previa de Invitación Noche de Oro" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Gala · Inmersivo</span>
+                    <h2 class="card-title">Invitación Noche de Oro</h2>
+                    <p class="card-desc">Sofisticación pura en cada píxel. Integra un elegante contador regresivo y un formulario de confirmación detallado bajo una interfaz oscura e inmersiva.</p>
+                    <a href="https://ffelipecuevasc.github.io/invitacionboda2/" target="_blank" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article>
+
+            <!-- 03 · Romance en Rosas -->
+            <article class="card" style="--d:0.14s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/3.png" alt="Vista previa de Invitación Romance en Rosas" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Romántico · Cristal</span>
+                    <h2 class="card-title">Invitación Romance en Rosas</h2>
+                    <p class="card-desc">Sol eterno del Mediterráneo en píxeles. Terracota suave, ocre y detalles dorados atemporales. Ideal para bodas de destino en viñedos y masías.</p>
+                    <a href="https://ffelipecuevasc.github.io/invitacionboda3/" target="_blank" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article>
+
+            <!-- 04 · Silencio Blanco
+            <article class="card" style="--d:0.19s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/3.png" alt="Vista previa de Invitación Romance en Rosas" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Minimalista · Contemporáneo</span>
+                    <h2 class="card-title">Silencio Blanco</h2>
+                    <p class="card-desc">Menos es más. Espacios vacíos como protagonistas, tipografía de alta jerarquía y una sola línea que lo dice todo. Para quienes encuentran belleza en la simplicidad.</p>
+                    <a href="#" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article> -->
+
+            <!-- 05 · Bohemio & Libre
+            <article class="card" style="--d:0.24s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/3.png" alt="Vista previa de Invitación Romance en Rosas" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Boho · Rústico</span>
+                    <h2 class="card-title">Bohemio &amp; Libre</h2>
+                    <p class="card-desc">Alma libre, espíritu aventurero. Texturas de lino, acuarelas tierra y una tipografía que parece escrita con pluma. Para bodas íntimas en campo abierto bajo las estrellas.</p>
+                    <a href="#" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article> -->
+
+            <!-- 06 · Gatsby Dorado
+            <article class="card" style="--d:0.29s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/3.png" alt="Vista previa de Invitación Romance en Rosas" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Art Déco · Glamour</span>
+                    <h2 class="card-title">Gatsby Dorado</h2>
+                    <p class="card-desc">La fiesta nunca termina en los años 20. Patrones geométricos dorados sobre azul noche, motivos art déco que evocan el glamour de la gran época. Para bodas que son leyenda.</p>
+                    <a href="#" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article> -->
+
+            <!-- 07 · Riviera Tropical
+            <article class="card" style="--d:0.34s">
+                <div class="card-image">
+                    <div class="thumb">
+                        <img src="./static/img/3.png" alt="Vista previa de Invitación Romance en Rosas" class="thumb-img">
+                        <div class="thumb-inner"></div> <span class="thumb-num">01</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Tropical · Destino</span>
+                    <h2 class="card-title">Riviera Tropical</h2>
+                    <p class="card-desc">Donde el mar y la selva se encuentran. Verdes profundos, azules caribe y un toque de coral crean esta invitación exuberante. Para bodas de destino en villa o playa privada.</p>
+                    <a href="#" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article> -->
+
+            <!-- 08 · Romance Vintage
+            <article class="card" style="--d:0.39s">
+                <div class="card-image">
+                    <div class="thumb thumb-vintage">
+                        <div class="thumb-inner"></div>
+                        <span class="thumb-num">08</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Vintage · Romántico</span>
+                    <h2 class="card-title">Romance Vintage</h2>
+                    <p class="card-desc">Una carta de amor escrita en el tiempo. Rosa antiguo, tonos sepia y detalles florales victorianos. Para bodas que celebran el amor clásico e intemporal con una elegancia sin prisa.</p>
+                    <a href="#" class="card-link">Ver proyecto <span class="arrow">→</span></a>
+                </div>
+            </article> -->
+
+        </div><!-- /cards-container -->
+    </section><!-- /right-col -->
+</main>
+
+<script src="./static/js/scripts.js"></script>
+</body>
+</html>
